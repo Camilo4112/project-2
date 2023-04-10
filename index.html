@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de contactos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Lista de contactos</h1>
+    <table id="contactos-table">
+      <tr>
+        <th>ID</th>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th>Teléfono</th>
+        <th>Ubicaciones</th>
+        <th>Ciudad</th>
+        <th>Dirección</th>
+        <th></th>
+      </tr>
+    </table>
+    <form id="agregar-form">
+      <label for="nombres-input">Nombres:</label>
+      <input type="text" id="nombres-input" required>
+      <label for="apellidos-input">Apellidos:</label>
+      <input type="text" id="apellidos-input" required>
+      <label for="telefono-input">Teléfono:</label>
+      <input type="text" id="telefono-input" required>
+      <label for="ubicaciones-input">Ubicaciones:</label>
+      <input type="text" id="ubicaciones-input" required>
+      <label for="ciudad-input">Ciudad:</label>
+      <input type="text" id="ciudad-input" required>
+      <label for="direccion-input">Dirección:</label>
+      <input type="text" id="direccion-input" required>
+      <button type="submit" id="agregar-button">Agregar</button>
+    </form>
+    <script src="listacontacto.js"></script>
+  </body>
+</html>
